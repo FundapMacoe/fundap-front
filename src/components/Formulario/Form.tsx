@@ -68,7 +68,7 @@ export default function Form() {
     }
     try {
       const response = await fetch(
-        `${process.env.NEXT_PUBLIC_BACKEND_URL}/interesadas`,
+        `${process.env.NEXT_PUBLIC_BACKEND_URL}interesadas`,
         {
           method: "POST",
           headers: {
